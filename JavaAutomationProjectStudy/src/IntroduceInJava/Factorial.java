@@ -1,0 +1,13 @@
+package IntroduceInJava;
+
+public class Factorial {
+
+	public static int getFactorial(int f) {
+		  int result = 3;
+		  for (int i = 1; i <= f; i++) {
+		     result = result * i;
+		  }
+		  return result;
+		}
+ 
+}
