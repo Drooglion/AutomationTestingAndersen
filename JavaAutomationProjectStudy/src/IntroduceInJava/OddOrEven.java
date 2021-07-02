@@ -3,15 +3,13 @@ package IntroduceInJava;
 //число записанное в переменную n, чётным либо нечётным.
 public class OddOrEven {
 
-	public static void main(String[] args) {
-		
-		int number = 0;
+	public void calculate(int number) {
 		
 		if (number != 0) {
 			number %= 2;
 			if (number == 0) {
 				System.out.println("Even");
-			} else  if (number == 1){
+			} else  if (number == 1  || number == -1){
 				System.out.println("Odd");
 			} 
 		} else {
