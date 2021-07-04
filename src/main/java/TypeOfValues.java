@@ -12,6 +12,7 @@ public static void main(String[] args) {
     getPrice(4);
     arrayToString();
     addHello();
+    getBool();
 }
     // 2. Метод с помощью которого считает среднее арифметическое
 private static void AvgArray(double[] mass) {
@@ -80,6 +81,18 @@ for (int i = 0; i < someArray.length; i++){
 }
 
 //  11, Преобразовать числовой массив в boolean
-
-
+public  static void getBool() {
+    int[] a = {0, 1, 2, 3, 0};
+    boolean b;
+    //берем массив
+    // проверяем целое, если 0 то фолс, если больше 0, то тру
+    // записываем результат в консоль
+    for (int i = 0; i < a.length; i++) {
+        if (a[i] == 0) {
+            System.out.println(b = false);
+        } else {
+            System.out.println(b = true);
+        }
+    }
+}
 }
