@@ -7,36 +7,36 @@ public class Operators {
     //если больше 22 то идем спать
     //Результат выводим в консоль
     public static void main(String[] args) {
-        int t = 5;
-        int m = 50;
+        int time = 5;
+        int money = 50;
 //        String action = "";
-        if (t >= 8 && t <= 12 && m > 10) {
+        if (time >= 8 && time <= 12 && money > 10) {
             System.out.println("Идем в магазин");
-        } else if (t > 12 && m > 50) {
+        } else if (time > 12 && money > 50) {
             System.out.println("Идем в кафе");
-        } else if (t < 19 && m < 50) {
+        } else if (time < 19 && money < 50) {
             System.out.println("Идем к соседу");
-        } else if (t > 19 && t < 22) {
+        } else if (time > 19 && time < 22) {
             System.out.println("Смотрим телевизор");
-        } else if (t > 22) {
+        } else if (time > 22) {
             System.out.println("Идем спать");
         } else {
             System.out.println("Осознаем тщетность бытия");
         }
         // Второе решение
-        if (t >= 8 && t <= 12) {
-            if (m > 10) {
+        if (time >= 8 && time <= 12) {
+            if (money > 10) {
                 System.out.println("Идем в магазин");
             } else {
                 System.out.println("Идем к соседу");
             }
-        } else if (t > 12 && t < 19) {
-            if (m > 50) {
+        } else if (time > 12 && time < 19) {
+            if (money > 50) {
                 System.out.println("Идем в кафе");
             } else {
                 System.out.println("Идем к соседу");
             }
-        } else if (t > 19 && t < 22) {
+        } else if (time > 19 && time < 22) {
             System.out.println("Смотрим телевизор");
         } else {
             System.out.println("Осознаем тщетность бытия");
